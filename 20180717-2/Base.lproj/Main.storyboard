@@ -43,7 +43,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <segue destination="FB8-Jr-9vb" kind="show" id="smk-No-dmo"/>
+                                            <segue destination="FB8-Jr-9vb" kind="show" id="75w-ey-Hhg"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="2ZM-jN-1KI">
@@ -131,7 +131,7 @@
             </objects>
             <point key="canvasLocation" x="1247.2" y="-37.684729064039409"/>
         </scene>
-        <!--View Controller-->
+        <!--始計第一-->
         <scene sceneID="CTv-Yc-3nF">
             <objects>
                 <viewController id="FB8-Jr-9vb" sceneMemberID="viewController">
@@ -140,20 +140,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="始計第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4F-gO-iYv">
-                                <rect key="frame" x="76" y="176" width="204" height="106"/>
+                                <rect key="frame" x="63" y="495" width="204" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="儒 家" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWA-L4-mia">
+                                <rect key="frame" x="74" y="173" width="30" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book_cover" translatesAutoresizingMaskIntoConstraints="NO" id="Ako-Rs-fpH">
+                                <rect key="frame" x="55" y="151" width="131" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Pjg-oX-mSk"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="始計第一" id="P2P-fM-LUN"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7s-vN-9ZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2039" y="-38"/>
+            <point key="canvasLocation" x="2037.5999999999999" y="-38.423645320197046"/>
         </scene>
         <!--孫子兵法-->
         <scene sceneID="AkE-CZ-V8Q">
@@ -165,6 +179,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xcf-3G-c4u">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.27682001090000002" green="0.408251849" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -222,7 +237,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="gpA-yp-UKF" kind="show" trigger="accessoryAction" id="q3u-J7-2Zw"/>
+                                            <segue destination="gpA-yp-UKF" kind="show" id="Jwc-TF-gh7"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="XhV-mg-7te">
@@ -264,7 +279,7 @@
             </objects>
             <point key="canvasLocation" x="1247" y="712"/>
         </scene>
-        <!--View Controller-->
+        <!--圖國-->
         <scene sceneID="lVd-cS-baU">
             <objects>
                 <viewController id="gpA-yp-UKF" sceneMemberID="viewController">
@@ -283,6 +298,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bgw-hl-0ps"/>
                     </view>
+                    <navigationItem key="navigationItem" title="圖國" id="NC3-Z6-rYQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taQ-DE-HzZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -297,6 +313,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TMj-tl-6pA">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.99215686270000003" green="0.7843137255" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -308,4 +325,7 @@
             <point key="canvasLocation" x="338" y="712"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book_cover" width="83" height="120"/>
+    </resources>
 </document>
