@@ -12,6 +12,7 @@
 		5F47072E20FDC4AA00EF3AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F47072C20FDC4AA00EF3AA1 /* Main.storyboard */; };
 		5F47073020FDC4AB00EF3AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F47072F20FDC4AB00EF3AA1 /* Assets.xcassets */; };
 		5F47073320FDC4AB00EF3AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F47073120FDC4AB00EF3AA1 /* LaunchScreen.storyboard */; };
+		5FFEE3F12101C394009C56C1 /* WCL-07.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEE3F02101C393009C56C1 /* WCL-07.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F47072F20FDC4AB00EF3AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F47073220FDC4AB00EF3AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F47073420FDC4AB00EF3AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFEE3F02101C393009C56C1 /* WCL-07.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WCL-07.ttf"; path = "../../../Downloads/王漢宗免費字型1/WCL-07.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5F47072820FDC4AA00EF3AA1 /* AppDelegate.swift */,
+				5FFEE3F02101C393009C56C1 /* WCL-07.ttf */,
 				5F47072A20FDC4AA00EF3AA1 /* ViewController.swift */,
 				5F47072C20FDC4AA00EF3AA1 /* Main.storyboard */,
 				5F47072F20FDC4AB00EF3AA1 /* Assets.xcassets */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFEE3F12101C394009C56C1 /* WCL-07.ttf in Resources */,
 				5F47073320FDC4AB00EF3AA1 /* LaunchScreen.storyboard in Resources */,
 				5F47073020FDC4AB00EF3AA1 /* Assets.xcassets in Resources */,
 				5F47072E20FDC4AA00EF3AA1 /* Main.storyboard in Resources */,
