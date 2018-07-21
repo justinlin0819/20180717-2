@@ -14,7 +14,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--中國哲學電子書-->
         <scene sceneID="0PB-EZ-bSE">
             <objects>
                 <viewController id="6HI-qW-ozt" sceneMemberID="viewController">
@@ -23,11 +23,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cover" translatesAutoresizingMaskIntoConstraints="NO" id="CuJ-xO-h4Y">
-                                <rect key="frame" x="0.0" y="-20" width="375" height="687"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abM-NV-Rdn">
-                                <rect key="frame" x="51" y="300" width="273" height="125"/>
+                                <rect key="frame" x="77" y="296" width="220" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="51"/>
                                 <state key="normal" image="竹簡"/>
@@ -35,15 +35,8 @@
                                     <segue destination="HvW-4K-Zza" kind="show" id="N4t-k8-fGa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="道 家" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-Tx-Y0y">
-                                <rect key="frame" x="166" y="296" width="63" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTK-7x-SFD">
-                                <rect key="frame" x="51" y="116" width="273" height="125"/>
+                                <rect key="frame" x="78" y="116" width="220" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="51"/>
                                 <state key="normal" image="竹簡"/>
@@ -59,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1m-vm-PdR">
-                                <rect key="frame" x="51" y="482" width="273" height="125"/>
+                                <rect key="frame" x="77" y="482" width="220" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="51"/>
                                 <state key="normal" image="竹簡"/>
@@ -74,11 +67,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="道 家" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-Tx-Y0y">
+                                <rect key="frame" x="166" y="296" width="63" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="b5z-Nu-nFw"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8LU-Yk-NHi"/>
+                    <navigationItem key="navigationItem" title="中國哲學電子書" id="8LU-Yk-NHi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdf-r5-EQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,97 +88,87 @@
         <scene sceneID="HH5-qb-2Kz">
             <objects>
                 <tableViewController id="56f-YV-eEf" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="un5-Ba-JaJ">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="un5-Ba-JaJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection id="mUt-Ye-oy4">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="k9p-o0-mg5">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="64" id="k9p-o0-mg5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k9p-o0-mg5" id="dnu-9b-omB">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapter" translatesAutoresizingMaskIntoConstraints="NO" id="hlQ-kA-0Qr">
+                                                    <rect key="frame" x="67" y="-4" width="240" height="72"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="學而第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMd-Qo-etT">
-                                                    <rect key="frame" x="132" y="5" width="110" height="33"/>
+                                                    <rect key="frame" x="132" y="16" width="136" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="34"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="KNb-tv-5Ed" kind="show" id="oCU-Wz-DeB"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jpO-zx-ouZ">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="64" id="Usb-6l-05Z">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jpO-zx-ouZ" id="vyX-YV-TUG">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Usb-6l-05Z" id="fXw-m9-7EV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="學而第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nJ-0z-oK0">
-                                                    <rect key="frame" x="132" y="5" width="110" height="33"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapter" translatesAutoresizingMaskIntoConstraints="NO" id="EWe-yS-pLk">
+                                                    <rect key="frame" x="67" y="-4" width="240" height="72"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="為政第二" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFh-Gg-ium">
+                                                    <rect key="frame" x="132" y="16" width="136" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="34"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="9HN-6g-NzY" kind="show" id="fOh-Yw-ghg"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="i7G-lj-Azi">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="64" id="Sps-9O-cC8">
+                                        <rect key="frame" x="0.0" y="128" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i7G-lj-Azi" id="KtE-fK-lLn">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sps-9O-cC8" id="aWX-N3-Yn8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="學而第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQg-5T-Acq">
-                                                    <rect key="frame" x="132" y="5" width="110" height="33"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapter" translatesAutoresizingMaskIntoConstraints="NO" id="xw7-oj-r6u">
+                                                    <rect key="frame" x="67" y="-4" width="240" height="72"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="八佾第三" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UI2-xc-L9b">
+                                                    <rect key="frame" x="132" y="16" width="136" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="34"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kBb-Ta-Maa">
-                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kBb-Ta-Maa" id="e8S-nw-udY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="學而第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qch-2A-MXB">
-                                                    <rect key="frame" x="132" y="5" width="110" height="33"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="m3C-Vm-lKW">
-                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m3C-Vm-lKW" id="RNw-WC-qe0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="學而第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEa-d0-miw">
-                                                    <rect key="frame" x="132" y="5" width="110" height="33"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="lCB-s1-JV7" kind="show" id="FCj-HJ-pyc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -192,7 +182,62 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBF-d6-ucg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5065" y="-1585"/>
+            <point key="canvasLocation" x="5064.8000000000002" y="-1585.4572713643179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c7X-CN-trd">
+            <objects>
+                <viewController id="KNb-tv-5Ed" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2zT-8t-E8B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fwj-XC-gYS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1.       子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」（1.1）
+
+2.       有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上，而好作亂者，未之有也。君子務本，本立而道生。孝弟也者，其為仁之本與！」（1.2）
+
+3.       子曰：「巧言令色，鮮矣仁！」（1.3）
+
+4.       曾子曰：「吾日三省吾身─為人謀而不忠乎？與朋友交而不信乎？傳不習乎？」（1.4）
+
+5.       子曰：「道千乘之國，敬事而信，節用而愛人，使民以時。」（1.5）
+
+6.       子曰：「弟子，入則孝，出則弟，謹而信，凡愛眾，而親仁。行有餘力，則以學文。」（1.6）
+
+7.       子夏曰：「賢賢易色；事父母，能竭其力；事君，能致其身；與朋友交，言而有信。雖曰未學，吾必謂之學矣。」（1.7）
+
+8.       子曰：「君子不重，則不威；學則不固。主忠信。無友不如己者。過，則勿憚改。」（1.8）
+
+9.       曾子曰：「慎終，追遠，民德歸厚矣。」（1.9）
+
+10.       子禽問於子貢曰：「夫子至於是邦也，必聞其政，求之與？抑與之與？子貢曰：「夫子溫﹑良﹑恭﹑儉﹑讓以得之。夫子之求之也，其諸異乎人之求之與？」（1.10）
+
+11.       子曰：「父在，觀其志；父沒，觀其行；三年無改於父之道，可謂孝矣。」（1.11）
+
+12.       有子曰：「禮之用，和為貴。先王之道，斯為美；小大由之。有所不行，知和而和，不以禮節之，亦不可行也。」（1.12）
+
+13.       有子曰：「信近於義，言可復也。恭近於禮，遠恥辱也。因不失其親，亦可宗也。」（1.13）
+
+14.       子曰：「君子食無求飽，居無求安，敏於事而慎於言，就有道而正焉，可謂好學也已。」（1.14）
+
+15.       子貢曰：「貧而無諂，富而無驕，何如？」子曰：「可也；未若貧而樂，富而好禮者也。」子貢曰：「詩云：『如切如磋，如琢如磨』，其斯之謂與？」子曰：「賜也，始可與言詩已矣，告諸往而知來者。」（1.15）
+
+16.       子曰：「不患人之不己之，患不知人也。」（1.16）</mutableString>
+                                <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3Fp-BH-Sz3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROi-eA-OHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5967" y="-2148"/>
         </scene>
         <!--老子-->
         <scene sceneID="unb-co-Drw">
@@ -374,6 +419,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nRT-md-3yh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m1n-dZ-GGb">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -450,6 +496,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="HvW-4K-Zza" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="utT-P4-jwU">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -526,6 +573,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Jgs-D1-Nlh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0yp-85-HR7">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -556,9 +604,158 @@
             </objects>
             <point key="canvasLocation" x="1438" y="-19"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="nxO-Wh-aOo">
+            <objects>
+                <viewController id="9HN-6g-NzY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bo5-wx-cTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0zy-v6-e23">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1.    子曰：「為政以德，譬如北辰居其所而眾星共之。」（2.1）
+
+2.    子曰：「詩三百，一言以蔽之，曰：『思無邪』。」（2.2）
+
+3.    子曰：「道之以政，齊之以刑，民免而無恥；道之以德，齊之以禮，有恥且格。」（2.3）
+
+4.    子曰：「吾十有五而志於學，三十而立，四十而不惑，五十而知天命，六十而耳順，七十而從心所欲，不踰矩。」（2.4）
+
+5.    孟懿子問孝。子曰：「無違。」樊遲御，子告之曰：「孟孫問孝於我，我對曰，『無違。』」樊遲曰：「何謂也？」子曰：「生，事之以禮；死，葬之以禮，祭之以禮。」（2.5）
+
+6.    孟武伯問孝。子曰：「父母唯其疾之憂。」（2.6）
+
+7.    子游問孝。子曰：「今之孝者，是謂能養。至於犬馬，皆能有養；不敬，何以別乎。」（2.7）
+
+8.    子夏問孝。子曰：「色難。有事，弟子服其勞；有酒食，先生饌，曾是以為孝乎？」（2.8）
+
+9.    子曰：「吾與回言終日，不違，如愚。退而省其私，亦足以發，回也不愚。」（2.9）
+
+10.子曰：「視其所以，觀其所由，察其所安。人焉叟哉？人焉叟哉？」（2.10）
+
+11.子曰：「溫故而知新，可以為師矣。」（2.11）
+
+12.子曰：「君子不器。」（2.12）
+
+13.子貢問君子。子曰：「先行其言，而後從之。」（2.13）
+
+14.子曰：「君子周而不比，小人比而不周。」（2.14）
+
+15.子曰：「學而不思則罔，思而不學則殆。」（2.15）
+
+16.子曰：「攻乎異端，斯害也己。」（2.16）
+
+17.子曰：「由！誨女知之乎！知之為知之，不知為不知，是知也。」（2.17）
+
+18.       子張學干祿。子曰：「多聞闕疑，慎言其餘，則寡尤。多見闕殆，慎行其餘，則寡悔。言寡尤，行寡悔，祿在其中矣。」（2.18）
+
+19.       哀公聞曰：「何為則民服？」孔子對曰：「舉直錯諸枉，則民服；舉枉錯諸直，則民不服。」（2.19）
+
+20.       季康子問：「使民敬忠以勸，如之何？」子曰：「臨之以莊，則敬；孝慈，則忠；舉善而教不能，則勸。」（2.20）
+
+21.       或謂孔子曰：「子奚不為政？」子曰：「書云：『孝乎惟孝，友于兄弟，施於有政。』是亦為政，奚其為為政？」（2.21）
+
+22.       子曰：「人而無信，不知其可也。大車無輗，小車無軏，其何以行之哉？」（2.22）
+
+23.       子張問：「十世可知也？」子曰：「殷因於夏禮，所損益，可知也；周因於殷禮，所損益，可知也。其或繼周者，雖百世，可知也。」（2.23）
+
+24.       子曰：「非其鬼而祭之，諂也。見義不為，無勇也。」（2.24）
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eOC-a0-haq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIS-Pl-W9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6654" y="-1796"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JQe-ti-hZ8">
+            <objects>
+                <viewController id="lCB-s1-JV7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VGZ-vQ-KCN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9xo-BF-CGW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1.   孔子謂季氏，「八佾舞於庭，是可忍也，孰不可忍也？」（3.1）
+
+2.   三家者以雍徹。子曰：「『相維辟公，天子穆穆』，奚取於三家之堂？」（3.2）
+
+3.   子曰：「人而不仁，如禮何？人而不仁，如樂何？」（3.3）
+
+4.   林放問禮之本。子曰：「大哉問！禮，與齊奢也，寧儉；喪，與其易也，寧戚。」（3.4）
+
+5.   子曰：「夷狄之有君，不如諸夏之亡也。」（3.5）
+
+6.   季氏旅於泰山。子謂冉有曰：「女弗能救與？」對曰：「不能。」子曰：「嗚呼！曾謂泰山不如林放乎？」（3.6）
+
+7.   子曰：「君子無所爭。必也射乎！揖讓而升，下而飲。其爭也君子。」（3.7）
+
+8.   子夏問曰：「巧笑倩兮，美目盼兮，素以為絢兮。何為也？」子曰：「繪事后素。」曰：「禮后乎？」子曰：「起予者商也！始可與言詩矣。」（3.8）
+
+9.   子曰：「夏禮，吾能言之，杞不足徵也；殷禮，吾能言之，宋不足徵也。文獻不足故也。足，則吾能徵之矣。」（3.9）
+
+10.       子曰：「禘，自既灌而往者，吾不欲觀之矣。」（3.10）
+
+11.       或問禘之說。子曰：「不知也；知其說者之於天下也，其如示諸斯乎！」指其掌。（3.11）
+
+12.       祭如在，祭神如神在。子曰：「吾不與祭，如不祭。」（3.12）
+
+13.       王孫賈問曰：「與其媚於奧，寧媚於(灶)，何謂也？」子曰：「不然；獲罪於天，吾所禱也。」（3.13）
+
+14.       子曰：「周監於二代，郁郁乎文哉！吾從周。」（3.14）
+
+15.       子入大廟，每事問。或曰：「孰謂鄹人之子知禮乎？入大廟，每事問。」子聞之，曰：「是禮也。」（3.15）
+
+16.       子曰：「射不主皮，為力不同科，古之道也。」（3.16）
+
+17.       子貢欲去告朔之餼羊。子曰：「賜也！爾愛其羊，我愛其禮。」（3.17）
+
+18.       子曰：「事君盡禮，人以為諂也。」（3.18）
+
+19.       定公問：「君使臣，臣事君，如之何？」孔子對曰：「君使臣以禮，臣事君以忠。」（3.19）
+
+20.       子曰：「關睢，樂而不淫，哀而不傷。」（3.20）
+
+21.       哀公問社於宰我。宰我對曰：「夏后氏以松，殷人以柏，周人以栗，曰，使民戰栗。」子聞之，曰：「成事不說，遂事不諫，既往不咎。」（3.21）
+
+22.       子曰：「管仲之器小哉。」或曰：「管仲儉乎？」曰：「管氏有三歸，官事不攝，焉得儉？然則管仲知禮乎？」曰：「邦君樹塞門，管氏亦樹塞門。邦君為兩君之好，有反坫，管氏亦有反坫。管氏而知禮，孰不知禮？」（3.22）
+
+23.       子語魯大師樂，曰：「樂其可知也：始作，翕如也；從之，純如也，繳如也，繹如也，以成。」（3.23）
+
+24.       儀封人請見，曰：「君子之至於斯也，吾未嘗不得見也。」從者見之。出曰：「二三子何患於喪乎？天下之無道也久矣，天將以夫子為木鐸。」（3.24）
+
+25.       子謂韶，「盡美矣，又盡善也。」謂武，「盡美矣，未盡善也。」（3.25）
+
+26.       子曰：「居上不寬，為禮不敬，臨喪不哀，吾何以觀之哉？」（3.26）</mutableString>
+                                <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="y5a-5e-KSB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xmU-e5-nh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5966" y="-1260"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="cover" width="81" height="154"/>
+        <image name="chapter" width="538" height="156"/>
+        <image name="cover" width="400" height="796"/>
         <image name="竹簡" width="400" height="125"/>
     </resources>
 </document>
