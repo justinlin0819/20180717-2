@@ -22,6 +22,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>wt021.ttf</string>
 		<string>WCL-07.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
