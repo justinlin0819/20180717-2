@@ -12,11 +12,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let image = UIImage()
+        self.navigationController?.navigationBar.setBackgroundImage(image,for: .default)
+        
         if let url = Bundle.main.url(forResource: "WCL-07", withExtension: "ttf") as CFURL? , let provider = CGDataProvider(url: url), let font = CGFont(provider) {
             
             print(font.fullName!)
          }
+        
+        
     }
 }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dfp-Da-fIl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vF1-fZ-nXB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -79,12 +79,12 @@
                         <viewLayoutGuide key="safeArea" id="b5z-Nu-nFw"/>
                     </view>
                     <navigationItem key="navigationItem" title="中國哲學電子書" id="8LU-Yk-NHi">
-                        <barButtonItem key="backBarButtonItem" title="回上一頁" id="4Ei-x4-oqt"/>
+                        <barButtonItem key="backBarButtonItem" title="回首頁" id="4Ei-x4-oqt"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdf-r5-EQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2616.8000000000002" y="-19.340329835082461"/>
+            <point key="canvasLocation" x="4495.1999999999998" y="-19.340329835082461"/>
         </scene>
         <!--論語-->
         <scene sceneID="HH5-qb-2Kz">
@@ -290,14 +290,11 @@
                             <outlet property="delegate" destination="56f-YV-eEf" id="H6k-QR-CdD"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="論語" id="Q8Z-Or-g25"/>
-                    <navigationItem key="navigationItem" title="論語" id="fX7-tp-Slv">
-                        <barButtonItem key="backBarButtonItem" title="論語" id="nd3-o7-4SL"/>
-                    </navigationItem>
+                    <tabBarItem key="tabBarItem" title="論語" image="UIActivityBookmark" id="DJq-14-LBy"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBF-d6-ucg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4876" y="-2817"/>
+            <point key="canvasLocation" x="5737" y="-2430"/>
         </scene>
         <!--學而第一-->
         <scene sceneID="c7X-CN-trd">
@@ -353,12 +350,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROi-eA-OHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6865" y="-4120"/>
+            <point key="canvasLocation" x="7166" y="-4034"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--儒家-->
         <scene sceneID="mZV-UE-6is">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nRT-md-3yh" sceneMemberID="viewController">
+                <tabBarController title="儒家" automaticallyAdjustsScrollViewInsets="NO" id="nRT-md-3yh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m1n-dZ-GGb">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -366,18 +363,18 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="56f-YV-eEf" kind="relationship" relationship="viewControllers" id="biB-nb-9mD"/>
-                        <segue destination="tVM-rX-fYM" kind="relationship" relationship="viewControllers" id="6ch-L1-v7s"/>
+                        <segue destination="56f-YV-eEf" kind="relationship" relationship="viewControllers" id="8e0-Lg-oMd"/>
+                        <segue destination="tVM-rX-fYM" kind="relationship" relationship="viewControllers" id="sOq-DP-WLd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="muc-t2-rJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3577" y="-1328"/>
+            <point key="canvasLocation" x="4969" y="-1443"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--道家-->
         <scene sceneID="Yva-xF-m9R">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="HvW-4K-Zza" sceneMemberID="viewController">
+                <tabBarController title="道家" automaticallyAdjustsScrollViewInsets="NO" id="HvW-4K-Zza" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="utT-P4-jwU">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -391,12 +388,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tmz-vQ-zP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3577" y="45"/>
+            <point key="canvasLocation" x="5455.1999999999998" y="44.527736131934034"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--兵家-->
         <scene sceneID="gt3-Xu-r2g">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Jgs-D1-Nlh" sceneMemberID="viewController">
+                <tabBarController title="兵家" automaticallyAdjustsScrollViewInsets="NO" id="Jgs-D1-Nlh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0yp-85-HR7">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -411,24 +408,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOz-U1-AmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2617" y="1171"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="WFc-hB-8Mr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dfp-Da-fIl" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vv9-8s-dew">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="6HI-qW-ozt" kind="relationship" relationship="rootViewController" id="Zj4-iB-FKM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zZS-Qg-oqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1438" y="-19"/>
         </scene>
         <!--為政第二-->
         <scene sceneID="nxO-Wh-aOo">
@@ -502,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIS-Pl-W9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6865" y="-3374"/>
+            <point key="canvasLocation" x="7804" y="-3374.6626686656673"/>
         </scene>
         <!--八佾第三-->
         <scene sceneID="JQe-ti-hZ8">
@@ -578,7 +557,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xmU-e5-nh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7048.8000000000002" y="-2648.7256371814096"/>
+            <point key="canvasLocation" x="7988" y="-2648.7256371814096"/>
         </scene>
         <!--孟子-->
         <scene sceneID="HZF-Vd-vSf">
@@ -784,14 +763,11 @@
                             <outlet property="delegate" destination="tVM-rX-fYM" id="cTb-33-BmJ"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="孟子" id="TQX-lL-kXz"/>
-                    <navigationItem key="navigationItem" title="孟子" id="1kI-cr-qfO">
-                        <barButtonItem key="backBarButtonItem" title="孟子" id="YYQ-LY-9uj"/>
-                    </navigationItem>
+                    <tabBarItem key="tabBarItem" title="孟子" image="UIActivityBookmark" id="rXH-wa-Qjq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YsK-O8-3UL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5510" y="-1766"/>
+            <point key="canvasLocation" x="5940" y="-1478"/>
         </scene>
         <!--吳子兵法-->
         <scene sceneID="5ht-Cy-Bms">
@@ -953,7 +929,7 @@
                             <outlet property="delegate" destination="1Vh-jo-aZ0" id="NIn-N4-xhr"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="吳子兵法" id="yX9-k3-luD"/>
+                    <tabBarItem key="tabBarItem" title="吳子兵法" image="UIActivityBookmark" id="yX9-k3-luD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nbq-Lo-4Yk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1163,7 +1139,7 @@
                             <outlet property="delegate" destination="EFw-4e-nYP" id="orX-jZ-4Ue"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="孫子兵法" id="eVN-6R-N2q"/>
+                    <tabBarItem key="tabBarItem" title="孫子兵法" image="UIActivityBookmark" id="eVN-6R-N2q"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c09-ap-zhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1373,11 +1349,11 @@
                             <outlet property="delegate" destination="r6e-P3-YrR" id="ieB-bo-MPY"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="莊子" id="iMi-6W-356"/>
+                    <tabBarItem key="tabBarItem" title="莊子" image="UIActivityBookmark" id="iMi-6W-356"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLc-62-xNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6561" y="325"/>
+            <point key="canvasLocation" x="8439" y="286"/>
         </scene>
         <!--老子-->
         <scene sceneID="pUC-Qc-zSA">
@@ -1583,11 +1559,11 @@
                             <outlet property="delegate" destination="fMo-I2-YOV" id="UkQ-KQ-dfH"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="老子" id="6jd-jm-E6I"/>
+                    <tabBarItem key="tabBarItem" title="老子" image="UIActivityBookmark" id="6jd-jm-E6I"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OoU-1g-F9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4713" y="-761"/>
+            <point key="canvasLocation" x="6634" y="-752"/>
         </scene>
         <!--梁惠王上-->
         <scene sceneID="dxN-Kh-lDe">
@@ -1601,7 +1577,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">一 　　孟子見梁惠王。王曰：「叟！不遠千里而來，亦將有以利吾國乎？」
+                                <string key="text">一 　　孟子見梁惠王。王曰：「叟！不遠千里而來，亦將有以利吾國乎？」
 
 　　孟子對曰：「王！何必曰利？亦有仁義而已矣。王曰：『何以利吾國？』大夫曰：『何以利吾家？』士庶人曰：『何以利吾身？』上下交征利而國危矣。萬乘之國，弒其君者，必千乘之家；千乘之國，弒其君者，必百乘之家。萬取千焉，千取百焉，不為不多矣。苟為後義而先利，不奪不饜。未有仁而遺其親者也，未有義而後其君者也。王亦曰仁義而已矣，何必曰利？」
 
@@ -1737,7 +1713,7 @@
 
 　　「今之制民之產，仰不足以事父母，俯不足以畜妻子；樂歲終身苦，凶年不免於死亡。此惟救死而恐不贍，奚暇治禮義哉？ 」
 
-　　「王欲行之，則盍反其本矣：五畝之宅，樹之以桑，五十者可以衣帛矣。雞豚狗彘之畜，無失其時，七十者可以食肉矣。百畝之田，勿奪其時，八口之家可以無饑矣。謹庠序之教，申之以孝悌之義，頒白者不負戴於道路矣。老者衣帛食肉，黎民不饑不寒，然而不王者，未之有也。」</mutableString>
+　　「王欲行之，則盍反其本矣：五畝之宅，樹之以桑，五十者可以衣帛矣。雞豚狗彘之畜，無失其時，七十者可以食肉矣。百畝之田，勿奪其時，八口之家可以無饑矣。謹庠序之教，申之以孝悌之義，頒白者不負戴於道路矣。老者衣帛食肉，黎民不饑不寒，然而不王者，未之有也。」</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1749,7 +1725,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kl3-cw-Ifx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9068" y="-2795.3523238380812"/>
+            <point key="canvasLocation" x="10007.200000000001" y="-2795.3523238380812"/>
         </scene>
         <!--梁惠王下-->
         <scene sceneID="p2i-fI-n8J">
@@ -1763,7 +1739,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">一
+                                <string key="text">一
 　　莊暴見孟子，曰：「暴見於王，王語暴以好樂，暴未有以對也。」曰：「好樂何如？」
 
 　　孟子曰：「王之好樂甚，則齊國其庶幾乎!」
@@ -1933,7 +1909,7 @@
 
 　　樂正子見孟子，曰：「克告於君，君為來見也。嬖人有臧倉者沮君，君是以不果來也。」
 
-　　曰：「行或使之；止或尼之。行止，非人所能也。吾之不遇魯侯，天也。臧氏之子焉能使予不遇哉？」</mutableString>
+　　曰：「行或使之；止或尼之。行止，非人所能也。吾之不遇魯侯，天也。臧氏之子焉能使予不遇哉？」</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1945,7 +1921,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72u-MR-gf1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10007.200000000001" y="-2080.2098950524737"/>
+            <point key="canvasLocation" x="9383" y="-2137"/>
         </scene>
         <!--公孫丑上-->
         <scene sceneID="qSU-dU-FKk">
@@ -1959,7 +1935,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">一
+                                <string key="text">一
 公孫丑問曰：「夫子當路於齊，管仲、晏子之功，可復許乎！」
 
 孟子曰：「子誠齊人也，知管仲、晏子而已矣。或問乎曾西曰：『吾子與子路孰賢？』曾西蹙然曰：『吾先子之所畏也。』曰：『然則吾子與管仲孰賢？』曾西艴然不悅曰：『爾何曾比予於管仲？管仲得君如彼其專也，行乎國政如彼其久也，功烈如彼其卑也。爾何曾比予於是！』」曰：「管仲，曾西之所不為也，而子為我願之乎？」
@@ -2050,7 +2026,7 @@
 九
 孟子曰：「伯夷非其君不事，非其友不友。不立於惡人之朝，不與惡人言；立於惡人之朝，與惡人言，如以朝衣朝冠坐於塗炭。推惡惡之心，思與鄉人立，其冠不正，望望然去之，若將浼焉。是故諸侯雖有善其辭命而至者，不受也。不受也者，是亦不屑就已。柳下惠不羞污君，不卑小官。進不隱賢，必以其道。遺佚而不怨，厄窮而不憫。故曰：『爾為爾，我為我；雖袒裼裸裎於我側，爾焉能浼我哉！』故由由然與之偕而不自失焉，援而止之而止。援而止之而止者，是亦不屑去已。」孟子曰：「伯夷隘，柳下惠不恭。隘與不恭，君子不由也。」
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2062,7 +2038,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2U-Gj-uut" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9068" y="-1397.4512743628186"/>
+            <point key="canvasLocation" x="10319" y="-1818"/>
         </scene>
         <!--第一章-->
         <scene sceneID="uDK-hs-eJS">
@@ -2098,7 +2074,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjz-is-yWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6716" y="-1175"/>
+            <point key="canvasLocation" x="9156" y="-1228"/>
         </scene>
         <!--第三章-->
         <scene sceneID="NoC-Oh-P3f">
@@ -2132,7 +2108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88T-Ug-KI9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5926" y="-393"/>
+            <point key="canvasLocation" x="7473" y="-187"/>
         </scene>
         <!--第二章-->
         <scene sceneID="UMg-Sb-FNq">
@@ -2162,7 +2138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26u-Rb-pEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7444" y="-805"/>
+            <point key="canvasLocation" x="8801" y="-519"/>
         </scene>
         <!--逍遙遊-->
         <scene sceneID="Tcu-7b-ocH">
@@ -2176,7 +2152,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
+                                <string key="text">北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
 
 　　《齊諧》者，志怪者也。《諧》之言曰：「鵬之徙於南冥也，水擊三千里，摶扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。
 
@@ -2208,7 +2184,7 @@
 
 　　惠子謂莊子曰：「吾有大樹，人謂之樗。其大本擁腫而不中繩墨，其小枝捲曲而不中規矩，立之塗，匠者不顧。今子之言，大而無用，衆所同去也。」
 
-　　莊子曰：「子獨不見狸狌乎？卑身而伏，以候敖者；東西跳梁，不辟高下；中於機辟，死於罔罟。今夫斄牛，其大若垂天之雲。此能為大矣，而不能執鼠。今子有大樹，患其無用，何不樹之於無何有之鄉，廣莫之野，彷徨乎無為其側，逍遙乎寢臥其下。不夭斤斧，物無害者，無所可用，安所困苦哉！」</mutableString>
+　　莊子曰：「子獨不見狸狌乎？卑身而伏，以候敖者；東西跳梁，不辟高下；中於機辟，死於罔罟。今夫斄牛，其大若垂天之雲。此能為大矣，而不能執鼠。今子有大樹，患其無用，何不樹之於無何有之鄉，廣莫之野，彷徨乎無為其側，逍遙乎寢臥其下。不夭斤斧，物無害者，無所可用，安所困苦哉！」</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2220,7 +2196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3oB-lS-paa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8129" y="-437"/>
+            <point key="canvasLocation" x="10007.200000000001" y="-437.63118440779613"/>
         </scene>
         <!--養生主-->
         <scene sceneID="6Oh-sg-ARE">
@@ -2234,7 +2210,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">吾生也有涯，而知也無涯。以有涯隨無涯，殆已；已而為知者，殆而已矣。為善無近名，為惡無近刑。緣督以為經，可以保身，可以全生，可以養親，可以盡年。
+                                <string key="text">吾生也有涯，而知也無涯。以有涯隨無涯，殆已；已而為知者，殆而已矣。為善無近名，為惡無近刑。緣督以為經，可以保身，可以全生，可以養親，可以盡年。
 
 　　庖丁為文惠君解牛，手之所觸，肩之所倚，足之所履，膝之所踦，砉然嚮然，奏刀騞然，莫不中音。合於桑林之舞，乃中經首之會。
 
@@ -2258,7 +2234,7 @@
 
 　　曰：「然。始也吾以為其人也，而今非也。向吾入而弔焉，有老者哭之，如哭其子；少者哭之，如哭其母。彼其所以會之，必有不蘄言而言，不蘄哭而哭者，是遁天倍情，忘其所受，古者謂之遁天之刑。適來，夫子時也；適去，夫子順也。安時而處順，哀樂不能入也，古者謂是帝之縣解。」
 
-　　指窮於為薪，火傳也，不知其盡也。</mutableString>
+　　指窮於為薪，火傳也，不知其盡也。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2270,7 +2246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PiE-H8-3qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8215" y="1085"/>
+            <point key="canvasLocation" x="9596" y="1112"/>
         </scene>
         <!--齊物論-->
         <scene sceneID="jHs-jd-naS">
@@ -2284,7 +2260,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">南郭子綦隱几而坐，仰天而噓，嗒焉似喪其耦。顏成子游立侍乎前，曰：「何居乎？形固可使如槁木，而心固可使如死灰乎？今之隱几者，非昔之隱几者也？」
+                                <string key="text">南郭子綦隱几而坐，仰天而噓，嗒焉似喪其耦。顏成子游立侍乎前，曰：「何居乎？形固可使如槁木，而心固可使如死灰乎？今之隱几者，非昔之隱几者也？」
 
 　　子綦曰：「偃，不亦善乎，而問之也！今者吾喪我，汝知之乎？女聞人籟而未聞地籟，女聞地籟而未聞天籟夫！」
 
@@ -2352,7 +2328,7 @@
 
 　　景曰：「吾有待而然者邪？吾所待又有待而然者邪？吾待蛇蚹蜩翼邪？惡識所以然！惡識所以不然！」
 
-　　昔者莊周夢為胡蝶，栩栩然胡蝶也。自喻適志與！不知周也。俄然覺，則蘧蘧然周也。不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂物化。</mutableString>
+　　昔者莊周夢為胡蝶，栩栩然胡蝶也。自喻適志與！不知周也。俄然覺，則蘧蘧然周也。不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂物化。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2364,7 +2340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gY-8L-e32" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8242" y="324"/>
+            <point key="canvasLocation" x="10119.200000000001" y="323.38830584707648"/>
         </scene>
         <!--謀攻第三-->
         <scene sceneID="8z8-vs-1y2">
@@ -2378,7 +2354,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">凡用兵之法，全國為上，破國次之；全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
+                                <string key="text">凡用兵之法，全國為上，破國次之；全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
 
 故上兵伐謀，其次伐交，其次伐兵，其下攻城。攻城之法，為不得已。修櫓轒轀，具器械，三月而後成；距闉，又三月而後已。將不勝其忿，而蟻附之，殺士三分之一，而城不拔者，此攻之災也。
 
@@ -2392,7 +2368,7 @@
 
 故知勝有五：知可以戰與不可以戰者勝，識衆寡之用者勝，上下同欲者勝，以虞待不虞者勝，將能而君不御者勝。此五者，知勝之道也。
 
-故曰：知彼知己，百戰不殆；不知彼而知己，一勝一負；不知彼不知己，每戰必殆。</mutableString>
+故曰：知彼知己，百戰不殆；不知彼而知己，一勝一負；不知彼不知己，每戰必殆。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2418,13 +2394,13 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">兵者，國之大事，死生之地，存亡之道，不可不察也。故經之以五（事），校之以計，而索其情：一曰道，二曰天，三曰地，四曰將，五曰法。
+                                <string key="text">兵者，國之大事，死生之地，存亡之道，不可不察也。故經之以五（事），校之以計，而索其情：一曰道，二曰天，三曰地，四曰將，五曰法。
 
 道者，令民與上同意，可與之死，可與之生，而不畏危也。天者，陰陽、寒暑、時制也。地者，高下、遠近、險易、廣狹、死生也。將者，智、信、仁、勇、嚴也。法者，曲制、官道、主用也。凡此五者，將莫不聞，知之者勝，不知者不勝。故校之以計，而索其情，曰：主孰有道？將孰有能？天地孰得？法令孰行？兵眾孰強？士卒孰練？賞罰孰明？吾以此知勝負矣。
 
 將聽吾計，用之必勝，留之；將不聽吾計，用之必敗，去之。計利以聽，乃為之勢，以佐其外。勢者，因利而制權也。兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。
 
-夫未戰而廟算勝者，得算多也；未戰而廟算不勝者，得算少也。多算勝，少算不勝，而況於無算乎？吾以此觀之，勝負見矣。</mutableString>
+夫未戰而廟算勝者，得算多也；未戰而廟算不勝者，得算少也。多算勝，少算不勝，而況於無算乎？吾以此觀之，勝負見矣。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2436,7 +2412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdI-J7-noM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5071" y="590"/>
+            <point key="canvasLocation" x="6948" y="589.65517241379314"/>
         </scene>
         <!--作戰第二-->
         <scene sceneID="rKr-zb-BiS">
@@ -2450,7 +2426,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費，賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。其用戰也貴勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣。故兵聞拙速，未睹巧之久也。夫兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。
+                                <string key="text">凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費，賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。其用戰也貴勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣。故兵聞拙速，未睹巧之久也。夫兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。
 
 善用兵者，役不再籍，糧不三載；取用於國，因糧於敵，故軍食可足也。
 
@@ -2460,7 +2436,7 @@
 
 故殺敵者，怒也；取敵之利者，貨也。故車戰，得車十乘以上，賞其先得者，而更其旌旗。車雜而乘之，卒善而養之，是謂勝敵而益強。
 
-故兵貴勝，不貴久。故知兵之將，生民之司命，國家安危之主也。</mutableString>
+故兵貴勝，不貴久。故知兵之將，生民之司命，國家安危之主也。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2472,7 +2448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZB6-Dj-Dpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6052" y="1015"/>
+            <point key="canvasLocation" x="7023" y="1307"/>
         </scene>
         <!--治兵-->
         <scene sceneID="17i-qr-Cq7">
@@ -2486,7 +2462,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">武侯問曰：「用兵之道何先？」起對曰：「先明四輕、二重、一信。」曰：「何謂也？」對曰：「使地輕馬，馬輕車，車輕人，人輕戰。明知險易，則地輕馬；芻秣以時，則馬輕車；膏鐧有餘，則車輕人；鋒銳甲堅，則人輕戰。進有重賞，退有重刑，行之以信。審能達此，勝之主也。」
+                                <string key="text">武侯問曰：「用兵之道何先？」起對曰：「先明四輕、二重、一信。」曰：「何謂也？」對曰：「使地輕馬，馬輕車，車輕人，人輕戰。明知險易，則地輕馬；芻秣以時，則馬輕車；膏鐧有餘，則車輕人；鋒銳甲堅，則人輕戰。進有重賞，退有重刑，行之以信。審能達此，勝之主也。」
 
 武侯問曰：「兵以何為勝？」起對曰：「以治為勝。」又問曰：「不在眾乎？」對曰：「若法令不明，賞罰不信，金之不止，鼓之不進，雖有百萬，何益於用？所謂治者，居則有禮，動則有威，進不可當，退不可追，前卻有節，左右應麾，雖絕成陳，雖散成行。與之安，與之危，其眾可合而不可離，可用而不可疲，投之所往，天下莫當，名曰父子之兵。」
 
@@ -2500,7 +2476,7 @@
 
 武侯問曰：「三軍進止，豈有道乎？」起對曰：「無當天灶，無當龍頭。天灶者，大谷之口；龍頭者，大山之端。必左青龍，右白虎，前朱雀，後玄武，招搖在上，從事於下。將戰之時，必審候風所從來，風順致呼而從之，風逆堅陳以待之。」
 
-武侯問曰：「凡蓄卒騎，豈有方乎？」起對曰：「夫馬，必安其處所，適其水草，節其飢飽。冬則溫廄，夏則涼廡，刻剔毛鬣，謹落四下。戢其耳目，無令驚駭；習其馳逐，閑其進止。人馬相親，然後可使。車騎之具，鞍、勒、銜、轡，必令完堅。凡馬不傷於末，必傷於始；不傷於飢，必傷於飽；日暮道遠，必數上下，寧勞於人，慎無勞馬。常令有餘，備敵覆我。能明此者，橫行天下。」</mutableString>
+武侯問曰：「凡蓄卒騎，豈有方乎？」起對曰：「夫馬，必安其處所，適其水草，節其飢飽。冬則溫廄，夏則涼廡，刻剔毛鬣，謹落四下。戢其耳目，無令驚駭；習其馳逐，閑其進止。人馬相親，然後可使。車騎之具，鞍、勒、銜、轡，必令完堅。凡馬不傷於末，必傷於始；不傷於飢，必傷於飽；日暮道遠，必數上下，寧勞於人，慎無勞馬。常令有餘，備敵覆我。能明此者，橫行天下。」</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2526,7 +2502,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">武侯謂吳起曰：「今秦脅吾西，楚帶吾南，趙衝吾北，齊臨吾東，燕絕吾後，韓據吾前。六國兵四守，勢甚不便。憂此奈何？」
+                                <string key="text">武侯謂吳起曰：「今秦脅吾西，楚帶吾南，趙衝吾北，齊臨吾東，燕絕吾後，韓據吾前。六國兵四守，勢甚不便。憂此奈何？」
 
 起對曰：「夫安國家之道，先戒為寶，今君已戒，禍其遠矣。臣請論六國之俗：夫齊陳重而不堅，秦陳散而自鬥，楚陳整而不久，燕陳守而不走，三晉陳治而不用。夫齊性剛，其國富，君臣驕奢而簡於細民，其政寬而祿不均，一陳兩心，前重後輕，故重而不堅。擊此之道，必三分之，獵其左右，脅而從之，其陳可壞。秦性強，其地險，其政嚴，其賞罰信，其人不讓，皆有鬥心，故散而自戰。擊此之道，必先示之以利而引去之，士貪於得而離其將，乘乖獵散，設伏投機，其將可取。楚性弱，其地廣，其政騷，其民疲，故整而不久。擊此之道，襲亂其屯，先奪其氣，輕進速退，弊而勞之，勿與爭戰，其軍可敗。燕性愨，其民慎，好勇義，寡詐謀，故守而不走。擊此之道，觸而迫之，凌而遠之，馳而後之，則上疑而下懼，謹我車騎必避之路，其將可虜。三晉者，中國也，其性和，其政平，其民疲於戰，習於兵，輕其將，薄其祿，士無死志，故治而不用。擊此之道，阻陳而壓之，眾來則拒之，去則追之，以倦其師。此其勢也。然則一軍之中，必有虎賁之士，力輕扛鼎，足輕戎馬，搴旗取將，必有能者。若此之等，選而別之，愛而貴之，是謂軍命。其有工用五兵、材力健疾、志在吞敵者，必加其爵列，可以決勝。厚其父母妻子，勸賞畏罰，此堅陳之士，可與持久。審能料此，可以擊倍。」武侯曰︰「善。」
 
@@ -2534,7 +2510,7 @@
 
 武侯問曰：「吾欲觀敵之外，以知其內，察其進，以知其止，以定勝負，可得聞乎？」起對曰：「敵人之來，蕩蕩無慮，旌旗煩亂，人馬數顧，一可擊十，必使無措；諸侯未會，君臣未和，溝壘未成，禁令未施，三軍匈匈，欲前不能，欲去不敢，以半擊倍，百戰不殆。」
 
-武侯問敵必可擊之道。起對曰：「用兵必審敵虛實而趨其危。敵人遠來新至，行列未定，可擊；既食未設備，可擊；奔走，可擊；勤勞，可擊；未得地利，可擊；失時不從，可擊；涉長道，後行未息，可擊；涉水半渡，可擊；險道狹路，可擊；旌旗亂動，可擊；陳數移動，可擊；將離士卒，可擊；心怖，可擊。若凡此者，選銳衝之，分兵繼之，急擊勿疑。」</mutableString>
+武侯問敵必可擊之道。起對曰：「用兵必審敵虛實而趨其危。敵人遠來新至，行列未定，可擊；既食未設備，可擊；奔走，可擊；勤勞，可擊；未得地利，可擊；失時不從，可擊；涉長道，後行未息，可擊；涉水半渡，可擊；險道狹路，可擊；旌旗亂動，可擊；陳數移動，可擊；將離士卒，可擊；心怖，可擊。若凡此者，選銳衝之，分兵繼之，急擊勿疑。」</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2560,7 +2536,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">吳起儒服以兵機見魏文侯。文侯曰：「寡人不好軍旅之事。」
+                                <string key="text">吳起儒服以兵機見魏文侯。文侯曰：「寡人不好軍旅之事。」
 
 起曰：「臣以見占隱，以往察來，主君何言與心違？今君四時使斬離皮革，掩以朱漆，畫以丹青，爍以犀象，冬日衣之則不溫，夏日衣之則不涼。為長戟二丈四尺，短戟一丈二尺，革車奄戶，縵輪籠轂，觀之於目則不麗，乘之以田則不輕，不識主君安用此也？若以備進戰退守而不求能用者，譬猶伏雞之搏狸、乳犬之犯虎，雖有鬥心，隨之死矣。昔承桑氏之君，修德廢武，以滅其國；有扈氏之君，恃眾好勇，以喪其社稷。明主鑒玆，必內修文德，外治武備。故當敵而不進，無逮於義矣；僵屍而哀之，無逮於仁矣。」
 
@@ -2578,7 +2554,7 @@
 
 武侯問曰：「願聞陳必定、守必固、戰必勝之道。」起對曰：「立見且可，豈直聞乎？君能使賢者居上，不肖者處下，則陳已定矣；民安其田宅，親其有司，則守已固矣；百姓皆是吾君而非鄰國，則戰已勝矣。」
 
-武侯嘗謀事，群臣莫能及，罷朝而有喜色。起進曰：「昔楚莊王嘗謀事，群臣莫能及，罷朝而有憂色。申公問曰：『君有憂色，何也？』曰：『寡人聞之，世不絕聖，國不乏賢。能得其師者王，能得其友者霸。今寡人不才而群臣莫及者，楚國其殆矣。』此楚莊王之所憂而君說之，臣竊懼矣。」於是武侯有慚色。</mutableString>
+武侯嘗謀事，群臣莫能及，罷朝而有喜色。起進曰：「昔楚莊王嘗謀事，群臣莫能及，罷朝而有憂色。申公問曰：『君有憂色，何也？』曰：『寡人聞之，世不絕聖，國不乏賢。能得其師者王，能得其友者霸。今寡人不才而群臣莫及者，楚國其殆矣。』此楚莊王之所憂而君說之，臣竊懼矣。」於是武侯有慚色。</string>
                                 <fontDescription key="fontDescription" name="HanWangLiSuMedium" family="HanWangLiSuMedium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2592,8 +2568,28 @@
             </objects>
             <point key="canvasLocation" x="3748" y="1745"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="uJk-W3-Gv0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vF1-fZ-nXB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="G1j-EQ-QSv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GSl-qs-WLg">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6HI-qW-ozt" kind="relationship" relationship="rootViewController" id="YCN-0q-Gx6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U4G-W4-pzk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3556" y="-19.340329835082461"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="UIActivityBookmark" width="35" height="30"/>
         <image name="chapter" width="269" height="78"/>
         <image name="cover" width="400" height="796"/>
         <image name="竹簡" width="400" height="125"/>
