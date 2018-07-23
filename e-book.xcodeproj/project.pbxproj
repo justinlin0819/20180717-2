@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F47072520FDC4AA00EF3AA1 /* 20180717-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20180717-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F47072520FDC4AA00EF3AA1 /* e-book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F47072820FDC4AA00EF3AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F47072A20FDC4AA00EF3AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F47072D20FDC4AA00EF3AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5F47071C20FDC4AA00EF3AA1 = {
 			isa = PBXGroup;
 			children = (
-				5F47072720FDC4AA00EF3AA1 /* 20180717-2 */,
+				5F47072720FDC4AA00EF3AA1 /* e-book */,
 				5F47072620FDC4AA00EF3AA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		5F47072620FDC4AA00EF3AA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F47072520FDC4AA00EF3AA1 /* 20180717-2.app */,
+				5F47072520FDC4AA00EF3AA1 /* e-book.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F47072720FDC4AA00EF3AA1 /* 20180717-2 */ = {
+		5F47072720FDC4AA00EF3AA1 /* e-book */ = {
 			isa = PBXGroup;
 			children = (
 				5F47072820FDC4AA00EF3AA1 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				5F47073120FDC4AB00EF3AA1 /* LaunchScreen.storyboard */,
 				5F47073420FDC4AB00EF3AA1 /* Info.plist */,
 			);
-			path = "20180717-2";
+			path = "e-book";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F47072420FDC4AA00EF3AA1 /* 20180717-2 */ = {
+		5F47072420FDC4AA00EF3AA1 /* e-book */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F47073720FDC4AB00EF3AA1 /* Build configuration list for PBXNativeTarget "20180717-2" */;
+			buildConfigurationList = 5F47073720FDC4AB00EF3AA1 /* Build configuration list for PBXNativeTarget "e-book" */;
 			buildPhases = (
 				5F47072120FDC4AA00EF3AA1 /* Sources */,
 				5F47072220FDC4AA00EF3AA1 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "20180717-2";
+			name = "e-book";
 			productName = "20180717-2";
-			productReference = 5F47072520FDC4AA00EF3AA1 /* 20180717-2.app */;
+			productReference = 5F47072520FDC4AA00EF3AA1 /* e-book.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F47072020FDC4AA00EF3AA1 /* Build configuration list for PBXProject "20180717-2" */;
+			buildConfigurationList = 5F47072020FDC4AA00EF3AA1 /* Build configuration list for PBXProject "e-book" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F47072420FDC4AA00EF3AA1 /* 20180717-2 */,
+				5F47072420FDC4AA00EF3AA1 /* e-book */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F47072020FDC4AA00EF3AA1 /* Build configuration list for PBXProject "20180717-2" */ = {
+		5F47072020FDC4AA00EF3AA1 /* Build configuration list for PBXProject "e-book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F47073520FDC4AB00EF3AA1 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F47073720FDC4AB00EF3AA1 /* Build configuration list for PBXNativeTarget "20180717-2" */ = {
+		5F47073720FDC4AB00EF3AA1 /* Build configuration list for PBXNativeTarget "e-book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F47073820FDC4AB00EF3AA1 /* Debug */,

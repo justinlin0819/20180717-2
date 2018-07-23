@@ -2076,7 +2076,7 @@
             </objects>
             <point key="canvasLocation" x="9156" y="-1228"/>
         </scene>
-        <!--第三章-->
+        <!--第二章-->
         <scene sceneID="NoC-Oh-P3f">
             <objects>
                 <viewController id="FP0-tr-90x" sceneMemberID="viewController">
@@ -2104,13 +2104,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="S2x-6e-3vR"/>
                     </view>
-                    <navigationItem key="navigationItem" title="第三章" id="91h-vl-VwJ"/>
+                    <navigationItem key="navigationItem" title="第二章" id="91h-vl-VwJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88T-Ug-KI9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7473" y="-187"/>
         </scene>
-        <!--第二章-->
+        <!--第三章-->
         <scene sceneID="UMg-Sb-FNq">
             <objects>
                 <viewController id="BfQ-ef-AZj" sceneMemberID="viewController">
@@ -2134,7 +2134,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="o2x-SD-Bxg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="第二章" id="Xlf-GE-y2M"/>
+                    <navigationItem key="navigationItem" title="第三章" id="Xlf-GE-y2M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26u-Rb-pEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
